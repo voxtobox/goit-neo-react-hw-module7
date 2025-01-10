@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 220px;
+  padding: 8px 16px;
+  border: 1px solid black;
+}
+
+.infoBar {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
