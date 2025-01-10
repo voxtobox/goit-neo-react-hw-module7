@@ -13,7 +13,6 @@ function App() {
   const contacts = useSelector(selectContacts);
 
   useEffect(() => {
-    console.log('dispatch');
     dispatch(fetchContacts());
   }, [dispatch]);
 
